@@ -2,7 +2,7 @@
 
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, Login, Register } from "../../pages";
+import { Login, MainApp, Register } from "../../pages";
 
 const Routes = () => {
   return (
@@ -15,7 +15,7 @@ const Routes = () => {
           <Register />
         </Route>
         <Route path="/">
-          <Home />
+          <MainApp />
         </Route>
       </Switch>
     </Router>
