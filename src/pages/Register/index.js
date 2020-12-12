@@ -15,7 +15,7 @@ const Register = () => {
         <Gap height={18} />
         <Input label="Email" placeholder="Email" />
         <Gap height={18} />
-        <Input label="Password" placeholder="Password" />
+        <Input label="Password" placeholder="Password" type="password" />
         <Gap height={50} />
         <Button title="Daftar" />
         <Gap height={100} />
