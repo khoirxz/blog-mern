@@ -1,9 +1,19 @@
 import React from "react";
+import { Button, Gap, Input, TextArea, Upload } from "../../components";
+import "./createBlog.scss";
 
 const CreateBlog = () => {
   return (
-    <div>
-      <h1>CreateBlog</h1>
+    <div className="blog-post">
+      <p>Create New Blog Post</p>
+      <Input label="Post Title" />
+      <Upload />
+      <TextArea />
+      <Gap height={20} />
+      <div className="button-action">
+        <Button title="save" />
+      </div>
+      <Gap height={20} />
     </div>
   );
 };
